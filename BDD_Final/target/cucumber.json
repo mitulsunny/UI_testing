@@ -1,0 +1,160 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#@nwow"
+          },
+          {
+            "line": 4,
+            "value": "#Scenario Outline: Title of your scenario"
+          },
+          {
+            "line": 5,
+            "value": "#Given I want to navigate to My OSA home Page"
+          },
+          {
+            "line": 6,
+            "value": "#Given I want to click on \"Forum login button\""
+          },
+          {
+            "line": 7,
+            "value": "#|xpath|//a[text()\u003d\"Forum Login\"]|"
+          },
+          {
+            "line": 8,
+            "value": "#Then I verify the \"Forum Login Page Title\""
+          },
+          {
+            "line": 9,
+            "value": "#|Forum Login Page|"
+          },
+          {
+            "line": 10,
+            "value": "#And I enter the \"username for forum login\""
+          },
+          {
+            "line": 11,
+            "value": "#|id|username|\u003cusername\u003e|"
+          },
+          {
+            "line": 12,
+            "value": "#And I enter the \"password for forum login\""
+          },
+          {
+            "line": 13,
+            "value": "#|id|password|\u003cpassword\u003e|"
+          },
+          {
+            "line": 14,
+            "value": "#Given I want to click on \"Login button\""
+          },
+          {
+            "line": 15,
+            "value": "#|xpath|//button[@id\u003d\"login_button\"]|"
+          },
+          {
+            "line": 16,
+            "value": "#And I want close the browser"
+          },
+          {
+            "line": 17,
+            "value": "#Examples:"
+          },
+          {
+            "line": 18,
+            "value": "#|username|password|"
+          },
+          {
+            "line": 19,
+            "value": "#|user1   |pass1|"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 1978200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startScenaniro()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 130500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.endScenaniro()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4973127900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to navigate to My OSA home Page",
+            "match": {
+              "location": "CommonSteps.i_want_to_navigate_to_My_OSA_home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1359969900,
+              "error_message": "org.openqa.selenium.NoSuchFrameException: No frame element found by name or id frame13\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SHAMIMA\u0027, ip: \u002748.237.97.126\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)\r\n\tat com.osa.steps.CommonSteps.i_want_to_click_on(CommonSteps.java:28)\r\n\tat ✽.Given I want to click on \"Caculate my rate\"(ContactPage.feature:24)\r\n",
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "I want to click on \"Caculate my rate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Caculate my rate",
+                  "offset": 20
+                }
+              ],
+              "location": "CommonSteps.i_want_to_click_on(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "xpath",
+                  "//button[@class\u003d\u0027td-button td-button-block td-button td-button-secondary\u0027]"
+                ],
+                "line": 25
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@nwow"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature I want to use this template for my feature file",
+    "description": "",
+    "id": "title-of-your-feature-i-want-to-use-this-template-for-my-feature-file",
+    "keyword": "Feature",
+    "uri": "ContactPage.feature"
+  }
+]

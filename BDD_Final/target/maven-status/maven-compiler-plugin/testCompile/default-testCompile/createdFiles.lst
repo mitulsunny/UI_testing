@@ -1,0 +1,10 @@
+com\osa\read\FileManager.class
+com\osa\steps\Jira.class
+com\osa\steps\Hooks.class
+com\osa\steps\CommonSteps.class
+com\osa\pages\HomePage.class
+com\osa\base\Browser.class
+com\osa\runner\RunRegression.class
+com\osa\pages\AboutPage.class
+com\osa\utilities\Utility.class
+com\osa\jira\Jira.class
